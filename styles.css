@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    color: #7996B3;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+/**--HERO SECTION--*/
+
+#hero {
+    height: 343px;
+    background-image: url("./images/Da_Nang_Vietnam.jpg");
+    background-size: cover;
+    padding: 20px 0 100px 0;
+}
+
+#title {
+    margin-top: 90px;
+    font-size: 60px;
+    color: whitesmoke;
+    text-shadow: 0px 10px 4px black;
+}
+
+.underline {
+    border-bottom: 4px solid red;
+}
+
+.cta {
+    background: white;
+    padding: 5px 10px;
+    border-radius: 2px; 
+ 
+}
+
+/**--ACTIVITIES SECTION--*/
+
+#activities {
+    margin: 0 auto;
+    padding: 40px 0 50px 0;
+    background: white;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.activity-section {
+    margin-top: 20px;
+    max-width: 270px;
+}
+
+.description-text {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.catba-img {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border: 6px solid #157378;
+    border-radius: 50%;
+    background-image: url("./images/Cat_Ba_HaiPhong.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#catba-img2:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGpwb3Z5OG14eGs1NWppcmYxNmJtMDliZW5iZG9hZ3psZGVuaHk1YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5pqaszIiSDorq4rBEV/giphy.gif");
+    border: 6px solid red;
+}
+
+.pagoda-img {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border: 6px solid #157378;
+    border-radius: 50%;
+    background-image: url("./images/Pho_Chieu_Pagoda_HaiPhong.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#pagoda-img-lantern:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzIwaTZqNnJndmhneDNjNDBvMDRrYjU5aWp6OGkxOWdxZnFvbWkzciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/K14ddixG848qQ/giphy-downsized-large.gif");
+    border: 6px solid red;
+}
+
+.flower-img {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border: 6px solid #157378;
+    border-radius: 50%;
+    background-image: url("./images/Flamboyants.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#flower-img-aodai:hover {
+    background-image: url("./images/non-ao-dai.jpg");
+    border: 6px solid red;
+}
+
+/**--GUIDE SECTION--*/
+
+#guide {
+    margin: 0 auto;
+    padding: 40px 0 80px 0;
+    background: linear-gradient( white, #AFB038, #157378);
+    align-items: center;
+}
+
+#travel {
+    margin: 20px auto;
+    color: #157378;
+    text-shadow: 0px 5px 20px #AFB038;
+}
+
+#host {
+    margin-top: 15px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid aliceblue;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 650px;
+    margin: 0 auto;
+    padding: 10px 20px 30px 30px;
+
+    color:aliceblue;
+    font-family: "Protest Riot", sans-serif;
+
+    text-shadow: 1px 2px 10px black;
+
+    border-radius: 10px;
+    box-shadow: -5px 5px 50px black;
+}
+
+#info {
+    margin: 0 10px 0 30px;
+}
+
+.wrapper {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 20px;
+    
+    .btn {
+      color: #AFB038;
+      font-size: 16px;
+      font-weight: bold;
+
+    }
+    
+    .border{
+      background : red;
+    }
+  
+    .top {
+      position: absolute;
+      top: 0px;
+      left: 50%;
+      width: 0;
+      height: 2px;
+      margin: auto;
+      opacity: 0;
+      transition: all .2s linear .3s;
+    }
+    
+    &:hover .top {
+      left: 0;
+      width: 100%;
+      opacity: 1;
+      transition: all .2s linear;
+    }
+  
+    .right {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 2px;
+      height: 0;
+      margin: auto;
+      transition: all .1s linear .2s;
+      }
+    
+    .left {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 2px;
+      height: 0;
+      margin: auto;
+      transition: all .1s linear .2s;
+    }
+    
+    &:hover .right, &:hover .left {
+      transition: all .1s linear .2s;
+      height: 100%;
+    }
+  
+    .bottom-left {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      margin: auto;
+      transition: all .2s linear;
+    }
+    
+    .bottom-right {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 0;
+      height: 2px;    
+      margin: auto;
+      transition: all .2s linear;
+    }
+    
+    &:hover .bottom-left, &:hover .bottom-right {
+      transition: all .2s linear .3s;
+      width: 100%;
+    }
+    
+  }
+
+a {
+    text-decoration: none;
+}
+
+/**--FOOTER SECTION--*/
+
+#footer {
+    font-style: italic;
+    margin: 40px auto;
+    color: #157378;
+}
