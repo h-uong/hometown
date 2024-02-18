@@ -107,7 +107,7 @@ h3 {
 }
 
 #flower-img-aodai:hover {
-    background-image: url("./images/non-ao-dai.jpg");
+    background-image: url("non-ao-dai.jpg");
     border: 6px solid red;
 }
 
